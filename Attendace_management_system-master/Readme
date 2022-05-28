@@ -1,0 +1,37 @@
+steps:
+1) Adjust system paths (set the internal and external paths).
+2) download my repository. And make sure you have the installed python in your system.
+3) install modules 
+   a)opencv (pip install opencv-python)
+   b)tkinker (pip install tk)
+   c)pillow (pip install Pillow)
+   d)pandas (pip install pandas)
+   e)os (pip install os-sys)
+4) Make sure XAMPP control pannel is installed in your system. start Apache and MYSQL in xampp server.
+4) Adjust the paths with your system paths in the file "AMS_Run.py".
+5) Adjust the path for the HomePage.php according to your system path.
+6) The url for the Index page is :- http://localhost/
+7) Then click on the HomePage.php , you will be directed to the home page of the browser.
+url for the Home Page is :-  http://localhost/HomePage.php
+8)Then click on the Take your attendance here button , the user interface will display in the task bar below.
+9) open the user interface and fill the details like Enrollment and Name and if you are the student attending the class for the first time then click on the button "Take Images".
+10) Then a webcam will open and it captures your images and displayes a message that the Images are saved sucessfully.
+11) After you got the message then click on the button 'Train Images' present in the user interface.
+12) Then a message is displayed like the model is trained .
+13) After that click on the "Automatic Attendance".
+14) Then you are asked to enter the subject name you are attending for and click on fill the attendance.
+15) Again a webcam is opened but our main objective is that the student who attend to the class must attended upto 10 minutes after the class starts.
+16) The webcam will open for 10 minutes so the students will get the attendance when they reach the class in that 10 minutes.
+17) The trained models of the students will be recognized automatically when the Automatic attendance button is clicked and the students who stand near the webcam.
+18) There is an option also for the students when there is a trouble arised in recognizing the face they can also manually enter their details all the details are stored in a .csv file where the admin can access.
+19) The Admin can also check the registered students by clicking on "check register students" in the user interface by giving username and Password
+20) The details of the students will store in .csv file and the in the localhost\phpMyAdmin also the admin can check anywhere.
+21) In the Home page you find Teacher's login where the the teacher can login and check the attendance of the students by giving username and password.
+
+INSTRUCTIONS:
+1) Make sure you use windows operating system.
+2) Make sure the system must be kept in good light not under the dim light.
+3) Noisy image can reduce your accuracy so quality of images matter.
+4) Make sure you use the pip latest version (for pip upgradation command is python -m pip install --upgrade pip )
+
+
